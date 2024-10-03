@@ -1,10 +1,16 @@
-p {
-    font-style: 'Times New Roman';
-}
+
+
 
 body {
-/* background-image: TBD.png; */
+    font-family: "Audiowide", sans-serif;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background: linear-gradient(135deg, #cacbd855 25%, transparent 25%) -10px 0/ 20px 20px, 
+    linear-gradient(225deg, #cacbd8 25%, transparent 25%) -10px 0/ 20px 20px, 
+    linear-gradient(315deg, #cacbd855 25%, transparent 25%) 0px 0/ 20px 20px, 
+    linear-gradient(45deg, #cacbd8 25%, #e5e5f7 25%) 0px 0/ 20px 20px;
 }
-header {
-    
+
+h1 {
+    font-family: "Audiowide", sans-serif;
 }
