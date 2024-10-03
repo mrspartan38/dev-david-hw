@@ -8,9 +8,20 @@ body {
     background: linear-gradient(135deg, #cacbd855 25%, transparent 25%) -10px 0/ 20px 20px, 
     linear-gradient(225deg, #cacbd8 25%, transparent 25%) -10px 0/ 20px 20px, 
     linear-gradient(315deg, #cacbd855 25%, transparent 25%) 0px 0/ 20px 20px, 
-    linear-gradient(45deg, #cacbd8 25%, #e5e5f7 25%) 0px 0/ 20px 20px;
-}
+    linear-gradient(45deg, #cacbd8 25%, #e5e5f7 25%) 0px 0/ 20px 20px;}
 
 h1 {
     font-family: "Audiowide", sans-serif;
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

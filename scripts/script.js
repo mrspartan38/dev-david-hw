@@ -14,10 +14,10 @@ $(document).ready(function(){
         
         if ( $("img").position().left > 100)
           {
-            $("body").append("<h2>YOU WON</h2> ") 
+            $("column-3").append("<h2>YOU WON</h2> ") 
           }
         else (
-          $("body").append("<h2>keep searching</h2> ")
+          $("column-3").append("<h2>keep searching</h2> ")
         )
         // alert( $("img").position().left ); 
         
